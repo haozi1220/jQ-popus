@@ -1,0 +1,35 @@
+//-
+  @Author: 张焱鑫
+  @Date:   2018-02-06 09:55:56
+  @Last Modified by:   张焱鑫
+  @Last Modified time: 2018-02-27 18:31:04
+.classified_catalogue
+    div
+        a(href="javascript:;") 全部
+        a(href="javascript:;") 爆款
+        a(href="javascript:;") 健康
+        a(href="javascript:;") 意外
+        a(href="javascript:;" class="active") 出行
+        a(href="javascript:;") 意外
+        a(href="javascript:;") 意外
+    script.
+        var $linkA = $('.classified_catalogue a');
+        var $class_cata = $('.classified_catalogue');
+        var len = $linkA.length;
+        var width = 3.46 * len + 'rem';
+        var W_width = $(window).width();
+        var rem = $('html')[0].style.fontSize;
+        rem = parseFloat(rem);
+        $('.classified_catalogue div').addClass('calculate').attr({'style': 'width: ' + width});
+        $linkA.on('click', function() {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+        $.each($linkA, function(i, item) {
+            if($(item).hasClass('active')) {
+                i += 1;
+                var left = 3.46 * i * rem - W_width;
+                if(left) {
+                    $class_cata.scrollLeft(left);
+                }
+            }
+        })

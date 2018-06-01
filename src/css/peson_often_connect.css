@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*单位*/
+/* 顶部完成按钮部分 */
+.comp_btn_wrapper {
+  padding: 0.42667rem 0.85333rem 0.42667rem 0;
+  text-align: right;
+  border-bottom: 1px solid #e6e6e6; }
+  .comp_btn_wrapper .comp_btn {
+    display: inline-block;
+    width: 2.64533rem;
+    padding: 0.27733rem 0;
+    text-align: center;
+    font-size: 0.512rem;
+    -webkit-border-radius: 0.17067rem;
+            border-radius: 0.17067rem;
+    background: #309afc;
+    color: #fff; }
+    .comp_btn_wrapper .comp_btn:active {
+      background: #057dec; }
+
+.ul_list_box {
+  margin-top: 0;
+  margin-bottom: 0; }
+  .ul_list_box .line_li {
+    padding: 0 0.42667rem; }
+    .ul_list_box .line_li.non_border_input {
+      padding-left: 0.42667rem;
+      padding-right: 0.42667rem;
+      border-bottom: 1px solid #e6e6e6; }
+    .ul_list_box .line_li .sex_wrapp {
+      width: 100%;
+      padding: 0 0.42667rem; }
+    .ul_list_box .line_li span.name_span {
+      -webkit-box-flex: 31%;
+      -webkit-flex: 31%;
+         -moz-box-flex: 31%;
+          -ms-flex: 31%;
+              flex: 31%; }
+      .ul_list_box .line_li span.name_span .must_write {
+        font-size: 0.46933rem;
+        color: #fc4545; }
+    .ul_list_box .line_li input.name_input {
+      width: 69%; }
+      .ul_list_box .line_li input.name_input.right_padd {
+        padding-right: 0.64rem; }
+
+/* 删除按钮 */
+.mr_top {
+  margin-top: 1.28rem; }
+  .mr_top a:nth-child(1) {
+    width: 10.66667rem;
+    background: #ef4443; }

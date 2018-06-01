@@ -1,0 +1,17 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-08 16:00:54
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-09 16:52:19
+*/
+.email { line-height:q(80); vertical-align: middle; background-color: #fff; position: relative;
+    span, input { font-size: q(26); color: #333; }
+    input { text-align: right; border: none; outline: none; }
+    ul { width: 100%; display: none; position: absolute; left: 0; top: 100%; z-index: 2; background-color: #fcfcfc; margin-bottom: -1px; border-top: 1px solid #e6e6e6; box-shadow: 0 4px 2px 0 #cdcdcd;
+        li { display: block; text-align: right; line-height: q(80); margin: 0 q(20); border-bottom: 1px dashed #e6e6e6;
+            span { color: #b3b3b3;
+                &.input_text { color: #333; }
+            }
+        }
+    }
+}

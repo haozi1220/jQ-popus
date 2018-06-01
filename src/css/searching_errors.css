@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+* @Author: 马凯
+* @Date:   2018-02-07 13:32:45
+* @Last Modified by:   程培培
+* @Last Modified time: 2018-02-10 11:42:25
+*/
+.searching_errors .page_status_tw {
+  display: none;
+  margin: 4.26667rem auto;
+  text-align: center; }
+  .searching_errors .page_status_tw img {
+    width: 11.17867rem; }
+  .searching_errors .page_status_tw p {
+    color: #b3b3b3;
+    font-size: 0.72533rem;
+    font-weight: bold;
+    margin-top: 1.38667rem; }

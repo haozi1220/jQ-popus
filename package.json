@@ -1,0 +1,35 @@
+{
+    "name": "XRSJ",
+    "Version": "1.1.2",
+    "description": "",
+    "author": "Zyx",
+    "license": "ISC",
+    "scripts": {
+        "dev": "gulp d",
+        "dev:sim": "gulp ds",
+        "watch": "gulp watch",
+        "build": "gulp p",
+        "build:min": "gulp pmin",
+        "build:sim": "gulp ps"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-livereload": "^3.8.1",
+        "gulp-sass": "^3.1.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sourcemaps": "^2.6.0",
+        "gulp-scss-lint": "^0.5.0",
+        "gulp-eslint": "^4.0.0",
+        "gulp-cached": "^1.1.1",
+        "gulp-changed": "^3.1.0",
+        "gulp-clean-css": "^3.6.0",
+        "gulp-uglify": "^3.0.0",
+        "gulp-minify-css": "^1.2.4",
+        "autoprefixer": "^7.1.2",
+        "gulp-pug": "^3.3.0",
+        "gulp-plumber": "^1.1.0",
+        "node-notifier": "^5.1.2",
+        "gulp-postcss": "^7.0.0",
+        "gulp-replace": "^0.6.1"
+    }
+}

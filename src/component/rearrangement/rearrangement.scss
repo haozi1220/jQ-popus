@@ -1,0 +1,28 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-05 20:07:59
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-06 13:16:12
+*/
+.rearrangement { display: flex; text-align: center; line-height: q(70); font-size: q(25); color: #333; background-color: #fff; border-bottom: 1px solid #e6e6e6;
+    .devide { display: inline-block; width: 1px; height: q(35); margin: q(17) 0; background-color: #e6e6e6; }
+    div { flex: 0 1 auto; width: 50%;
+        span { position: relative; color: #333;
+            .up, .down { display: block; position: absolute; right: q(-25); width: 0; height: 0; border: q(7) solid transparent; border-top: q(8) solid transparent; border-bottom: q(8) solid transparent; border-bottom-color: #999; }
+            .up { top: -1px;}
+            .down { bottom: -1px; border-top-color: #999; border-bottom-color: transparent; }
+        }
+        &.increase {
+            span { color: #309afc;
+                .up { border-bottom-color: #309afc; }
+                .down { border-top-color: #a7d2f9; }
+            }
+        }
+        &.decrease {
+            span { color: #309afc;
+                .up { border-bottom-color: #a7d2f9; }
+                .down { border-top-color: #309afc; }
+            }
+        }
+    }
+}

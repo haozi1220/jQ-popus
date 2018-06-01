@@ -1,0 +1,13 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-06 09:56:04
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-06 10:55:48
+*/
+.classified_catalogue { padding: q(15) q(20); font-size: 0; background-color: #fff; overflow: scroll;
+    div.calculate { margin: 0 q(-20);
+        a { display: inline-block; background-color: #f5f5f5; border-radius: q(8); width: q(120); line-height: q(50); text-align: center; font-size: q(24); color: #333; margin: 0 q(20);
+            &.active { color: #309afc; background-color: transparent; border: 1px solid #309afc; }
+        }
+    }
+}

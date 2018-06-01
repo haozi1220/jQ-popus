@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*
+* @Author: 仇少凯
+* @Date:   2018-02-08 13:15:47
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-03-16 16:46:06
+*/
+.group_insur_wrapp {
+  overflow-x: hidden;
+  padding-bottom: 2.77333rem; }
+  .group_insur_wrapp .grou_insur_item {
+    padding-top: 0.42667rem;
+    -webkit-box-shadow: 0 5px 10px #b9b2b2;
+            box-shadow: 0 5px 10px #b9b2b2; }
+    .group_insur_wrapp .grou_insur_item .applicant_info_wrapp {
+      padding: 0 0.42667rem;
+      background-color: #fff; }
+      .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .applicant_title {
+        padding: 0.61867rem 0 0.61867rem 1.28rem;
+        font-size: 0.64rem;
+        color: #309afc;
+        background-position: 0.42667rem center;
+        -webkit-background-size: 0.55467rem 0.55467rem;
+                background-size: 0.55467rem 0.55467rem;
+        background-repeat: no-repeat; }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .applicant_title.applicant_title_icon {
+          background-image: url("../images/applican_title_bg.png"); }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .applicant_title.insurant_title_icon {
+          background-image: url("../images/insuran_title_bg.png"); }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .applicant_title.beneficiary_title_icon {
+          background-image: url("../images/beneficiary_title_bg.png"); }
+      .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .total_money {
+        margin: 0 -0.42667rem;
+        padding: 0.98133rem 0.85333rem;
+        border-top: 1px solid #e6e6e6;
+        font-size: 0.59733rem;
+        background-color: #fafdff; }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .total_money .total_money_num {
+          font-size: 0.768rem;
+          color: #ec1513; }
+          .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .total_money .total_money_num strong {
+            font-size: 0.512rem; }
+      .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .beneficiary_content {
+        padding: 0.29867rem 0.42667rem;
+        font-size: 0.55467rem;
+        line-height: 0.85333rem;
+        border-top: 1px solid #e6e6e6; }
+      .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .guarantee_top {
+        padding: 0.46933rem 0.42667rem;
+        font-size: 0.59733rem;
+        line-height: 0.85333rem; }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .guarantee_top .guarantee_content {
+          width: 8.32rem; }
+      .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .guarantee_bottom {
+        padding: 0.576rem 0.42667rem;
+        border-top: 1px solid #e6e6e6;
+        font-size: 0.59733rem;
+        line-height: 1; }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .guarantee_bottom .oringe_color {
+          padding-left: 0.14933rem;
+          border-left: 0.128rem solid #f16c2b;
+          color: #f16c2b; }
+      .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .server_wrapp {
+        padding: 0.61867rem 0.40533rem;
+        font-size: 0.68267rem;
+        line-height: 1; }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .server_wrapp .server {
+          padding-left: 0.896rem;
+          color: #f16c2b;
+          background: url("../images/server_bg.png") no-repeat left center;
+          -webkit-background-size: 0.49067rem 0.53333rem;
+                  background-size: 0.49067rem 0.53333rem; }
+        .group_insur_wrapp .grou_insur_item .applicant_info_wrapp .server_wrapp .server_name {
+          padding-right: 0.896rem;
+          background: url("../images/server_name_arrow.png") no-repeat right center;
+          -webkit-background-size: 0.64rem 0.36267rem;
+                  background-size: 0.64rem 0.36267rem; }
+    .group_insur_wrapp .grou_insur_item .applicant_info li {
+      padding: 0.55467rem 0.42667rem;
+      border-top: 1px solid #e6e6e6;
+      font-size: 0.59733rem; }
+      .group_insur_wrapp .grou_insur_item .applicant_info li.insur_text {
+        padding: 0;
+        font-size: 0.64rem;
+        color: #309afc; }
+        .group_insur_wrapp .grou_insur_item .applicant_info li.insur_text span {
+          display: block;
+          padding: 0.53333rem 0 0.53333rem 1.28rem;
+          margin: 0 -0.85333rem;
+          background-color: #f9fcff; }
+      .group_insur_wrapp .grou_insur_item .applicant_info li .insur_money {
+        color: #ec1513; }
+      .group_insur_wrapp .grou_insur_item .applicant_info li .plant_title {
+        height: 1.06667rem;
+        line-height: 1.06667rem; }
+      .group_insur_wrapp .grou_insur_item .applicant_info li .work_name {
+        width: 85%;
+        line-height: 1.4;
+        text-align: right;
+        margin-top: -0.10667rem; }
+        .group_insur_wrapp .grou_insur_item .applicant_info li .work_name span {
+          display: inline-block;
+          text-align: left; }
+    .group_insur_wrapp .grou_insur_item .applicant_info .plant_content li {
+      padding-top: 0.55467rem;
+      padding-bottom: 0;
+      border: 0;
+      color: #808080; }
+      .group_insur_wrapp .grou_insur_item .applicant_info .plant_content li .plant_item_content {
+        width: 5.58933rem;
+        line-height: 0.81067rem; }
+    .group_insur_wrapp .grou_insur_item .applicant_info .insur_btn_wrap {
+      margin-top: 0.512rem;
+      text-align: center; }
+      .group_insur_wrapp .grou_insur_item .applicant_info .insur_btn_wrap span {
+        display: inline-block;
+        height: 0.81067rem;
+        padding: 0 0.93867rem 0 0.42667rem;
+        border: 1px solid #1596f6;
+        -webkit-border-radius: 0.21333rem;
+                border-radius: 0.21333rem;
+        font-size: 0.46933rem;
+        line-height: 0.81067rem;
+        color: #1596f6;
+        background: url("../images/click_none.png") no-repeat 2.56rem center;
+        -webkit-background-size: 0.384rem 0.21333rem;
+                background-size: 0.384rem 0.21333rem; }
+        .group_insur_wrapp .grou_insur_item .applicant_info .insur_btn_wrap span.clcik_active {
+          background-image: url("../images/click_show.png"); }
+  .group_insur_wrapp .top_padding {
+    padding-top: 0.42667rem; }

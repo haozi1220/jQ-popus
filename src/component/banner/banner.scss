@@ -1,0 +1,30 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-06 13:32:34
+* @Last Modified by:   李杰
+* @Last Modified time: 2018-05-25 15:33:33
+*/
+.flash { transition: all cubic-bezier(.1, .56, .1, .9) 200ms;}
+.banner { height: q(677); background-color: #fff; overflow: hidden;
+    .container { position: relative; height: q(677); }
+    .code { position: absolute; top: 0; left: q(75); width: q(78); height: q(114); background-color: #fedc23; border-bottom-left-radius: q(39); border-bottom-right-radius: q(39); z-index: 2; box-shadow: -3px 1px 3px 0 #d4cfcf;
+        img { position: absolute; left: q(17.5); bottom: q(34); width: q(43); height: q(43); }
+    }
+    .ellipse { width: 250%; height: 100%; margin: 0 q(-563); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%; overflow: hidden;
+        img.bannerImg { width: q(750); height: q(677); margin-left: q(563); transform-origin: 50% 0%;
+        }
+    }
+    .title { position: absolute; bottom: q(80); left: 0; width: 100%;
+        div { padding: 0 q(80) 0 q(84); }
+        h2 { font-size: q(66); line-height: 1; color: #fff; }
+        span.line { display: block; width: 100%; height: 0; border-top: 1px dashed #fff; margin: q(26) 0 q(23); }
+        p { font-size: 0; color: #fff; }
+        span { font-size: q(23); line-height: 1; }
+    }
+}
+.banner_shrink { height: q(530); overflow: hidden;
+    .container { height: q(530); }
+    .banner .container img.bannerImg { height: q(530); }
+    .title { bottom: q(50); }
+    .ellipse { overflow: visible;}
+}

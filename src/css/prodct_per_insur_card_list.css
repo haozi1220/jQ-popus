@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*
+* @Author: 李杰
+* @Date:   2018-02-09 08:14:25
+* @Last Modified by:   李杰
+* @Last Modified time: 2018-03-14 08:19:57
+*/
+.service_attache_container {
+  margin-bottom: 3.2rem; }
+
+.card_list {
+  margin: 0.42667rem 0; }
+
+.service_attache_block1 {
+  background-color: #fff;
+  padding: 0.85333rem 0.81067rem 0.21333rem;
+  margin-bottom: 0.42667rem; }
+  .service_attache_block1 .block1_title {
+    font-size: 0.68267rem;
+    color: #333;
+    margin-bottom: 0.72533rem; }
+  .service_attache_block1 .block_list li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 0.512rem; }
+    .service_attache_block1 .block_list li:nth-child(1) {
+      margin-top: 0; }
+    .service_attache_block1 .block_list li.line {
+      border-bottom: 1px dashed #dadada;
+      margin: 0.53333rem 0;
+      padding: 0;
+      line-height: 0;
+      font-size: 0; }
+    .service_attache_block1 .block_list li .bl_left {
+      font-size: 0;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 1 35%;
+         -moz-box-flex: 0;
+          -ms-flex: 0 1 35%;
+              flex: 0 1 35%;
+      margin-left: 1.024rem; }
+      .service_attache_block1 .block_list li .bl_left.no_icon {
+        margin-left: 0; }
+      .service_attache_block1 .block_list li .bl_left i.icon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 0.59733rem;
+        height: 0.61867rem;
+        margin-left: -1.024rem;
+        margin-right: 0.42667rem; }
+        .service_attache_block1 .block_list li .bl_left i.icon img {
+          display: block;
+          width: 100%; }
+      .service_attache_block1 .block_list li .bl_left .text {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 0.59733rem;
+        color: #808080;
+        line-height: 0.85333rem; }
+        .service_attache_block1 .block_list li .bl_left .text.color_333 {
+          color: #333; }
+    .service_attache_block1 .block_list li .bl_right {
+      font-size: 0;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 1 65%;
+         -moz-box-flex: 0;
+          -ms-flex: 0 1 65%;
+              flex: 0 1 65%;
+      text-align: right;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+         -moz-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .service_attache_block1 .block_list li .bl_right .bl_right_num {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 95%;
+           -moz-box-flex: 0;
+            -ms-flex: 0 1 95%;
+                flex: 0 1 95%; }
+        .service_attache_block1 .block_list li .bl_right .bl_right_num .prompt {
+          display: block;
+          font-size: 0.46933rem;
+          color: #666;
+          font-style: normal;
+          margin-top: 0.21333rem; }
+      .service_attache_block1 .block_list li .bl_right.no_icon {
+        margin-right: 0; }
+      .service_attache_block1 .block_list li .bl_right a.bl_right_link {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 5%;
+           -moz-box-flex: 0;
+            -ms-flex: 0 1 5%;
+                flex: 0 1 5%;
+        margin-left: 0.42667rem; }
+      .service_attache_block1 .block_list li .bl_right .num {
+        display: block;
+        font-size: 0.59733rem;
+        color: #333; }
+        .service_attache_block1 .block_list li .bl_right .num.color_9e9e9e {
+          color: #9e9e9e; }
+      .service_attache_block1 .block_list li .bl_right .icon {
+        display: block;
+        vertical-align: middle;
+        width: 0.64rem;
+        height: 0.64rem; }
+        .service_attache_block1 .block_list li .bl_right .icon img {
+          display: block;
+          width: 100%; }

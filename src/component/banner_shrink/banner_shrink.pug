@@ -1,0 +1,21 @@
+//-
+  @Author: 张焱鑫
+  @Date:   2018-02-08 15:33:08
+  @Last Modified by:   张焱鑫
+  @Last Modified time: 2018-02-11 11:00:50
+mixin banner(img, h2, span1, span2)
+    .banner_shrink
+        .banner
+            .container
+                div.code
+                    img(src="images/td_code.png")
+                .ellipse
+                    img(src="images/" + img, class="bannerImg")
+                div.title
+                    div
+                        h2= h2
+                        span.line
+                        p
+                            span= span1
+                            span &nbsp;/&nbsp;
+                            span= span2

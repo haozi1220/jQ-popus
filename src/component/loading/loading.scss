@@ -1,0 +1,13 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-11 12:18:22
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-11 13:08:22
+*/
+.loadIng { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 2; background-color: rgba(0, 0, 0, .6);
+    img { width: q(128); height: q(120); position: absolute; top: 50%; left: 50%; margin-left: q(-64); margin-top: q(-60); animation: pre_loading 1500ms linear infinite; }
+    @keyframes pre_loading {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+}

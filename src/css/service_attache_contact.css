@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*
+* @Author: 程培培
+* @Date:   2018-02-07 09:56:55
+ * @Last Modified by: 王钰川
+ * @Last Modified time: 2018-02-11 17:00:37
+*/
+.info_box {
+  padding: 0.53333rem 0.85333rem 0rem;
+  background: #fff;
+  -webkit-box-shadow: 0rem 0.064rem 0.064rem #cecece;
+          box-shadow: 0rem 0.064rem 0.064rem #cecece; }
+  .info_box ul li {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 0.512rem 1.19467rem 0.512rem 0; }
+    .info_box ul li p {
+      font-size: 0.46933rem;
+      color: #999; }
+    .info_box ul li input[type="text"] {
+      border: 0;
+      outline: none;
+      font-size: 0.64rem;
+      line-height: 0.64rem;
+      color: #333;
+      width: 100%;
+      padding: 0; }
+    .info_box ul li select {
+      border: 0;
+      outline: none;
+      background-color: #fff;
+      font-size: 0.64rem;
+      line-height: 0.81067rem;
+      color: #333;
+      width: 100%;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      padding: 0;
+      margin-bottom: 0; }
+    .info_box ul li.email {
+      line-height: inherit;
+      vertical-align: middle;
+      background-color: #fff;
+      position: relative; }
+      .info_box ul li.email span, .info_box ul li.email input {
+        font-size: 0.46933rem;
+        color: #999; }
+      .info_box ul li.email input {
+        color: #333;
+        font-size: 0.64rem;
+        line-height: 0.64rem;
+        text-align: left;
+        border: none;
+        outline: none;
+        width: inherit; }
+      .info_box ul li.email ul {
+        width: 100%;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 2;
+        background-color: #fcfcfc;
+        margin-bottom: -1px;
+        border-top: 1px solid #e6e6e6;
+        -webkit-box-shadow: 0 4px 2px 0 #cdcdcd;
+                box-shadow: 0 4px 2px 0 #cdcdcd; }
+        .info_box ul li.email ul li {
+          display: block;
+          text-align: left;
+          line-height: 1.28rem;
+          margin: 0 0.42667rem;
+          border-bottom: 1px dashed #e6e6e6;
+          padding: 0; }
+          .info_box ul li.email ul li span {
+            color: #b3b3b3; }
+            .info_box ul li.email ul li span.input_text {
+              color: #333; }
+  .info_box ul .test {
+    position: relative;
+    border-bottom: 0; }
+    .info_box ul .test .send_ms {
+      display: inline-block;
+      position: absolute;
+      right: 0rem;
+      bottom: 0.42667rem; }
+
+.mr_top {
+  margin-top: 12.37333rem;
+  margin-bottom: 2.13333rem; }

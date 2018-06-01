@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*
+* @Author: 程培培
+* @Date:   2018-02-07 17:07:47
+* @Last Modified by:   王宝杰
+* @Last Modified time: 2018-03-19 16:10:29
+*/
+.ipl_box li {
+  margin-top: 0.42667rem; }
+
+.block_first .nav {
+  margin: 0rem 0.42667rem;
+  position: relative;
+  font-size: 0;
+  background: #fff;
+  padding: 0.96rem 0rem 0.96rem 0.42667rem;
+  padding-bottom: 0.85333rem;
+  -webkit-border-radius: 0.21333rem;
+          border-radius: 0.21333rem;
+  -webkit-box-shadow: 0 1px 2px #cecece;
+          box-shadow: 0 1px 2px #cecece; }
+  .block_first .nav .img_box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.432rem;
+    height: 2.432rem;
+    background: #fff;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin-right: 0.42667rem; }
+    .block_first .nav .img_box img.card_photo {
+      width: 2.432rem;
+      height: 2.53867rem; }
+  .block_first .nav img.ph_bg {
+    position: absolute;
+    width: 6.912rem;
+    height: 3.88267rem;
+    right: 0rem;
+    top: 0rem; }
+  .block_first .nav .text {
+    width: 75%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle; }
+    .block_first .nav .text h4 {
+      font-size: 0.85333rem;
+      color: #333;
+      margin-bottom: 0.32rem; }
+    .block_first .nav .text p {
+      font-size: 0.59733rem;
+      color: #333;
+      width: 100%;
+      margin-left: 25%; }
+      .block_first .nav .text p .left_name {
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -25%; }
+      .block_first .nav .text p .right_num {
+        width: 75%;
+        display: inline-block; }
+
+.block_first .list_box {
+  margin: 0rem 0.85333rem;
+  padding: 0.42667rem 0rem;
+  background: #fff;
+  margin-top: -0.384rem;
+  -webkit-box-shadow: 0 1px 2px #cecece;
+          box-shadow: 0 1px 2px #cecece;
+  -webkit-border-radius: 0.21333rem;
+          border-radius: 0.21333rem; }
+  .block_first .list_box ul li {
+    padding: 0.21333rem 0.42667rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .block_first .list_box ul li .icon_text {
+      font-size: 0; }
+      .block_first .list_box ul li .icon_text span {
+        font-size: 0.512rem;
+        color: #333;
+        display: inline-block;
+        vertical-align: middle; }
+      .block_first .list_box ul li .icon_text i.tb_xzh {
+        display: inline-block;
+        width: 0.46933rem;
+        height: 0.512rem;
+        margin-right: 0.32rem;
+        background: url("../images/icon1.png") no-repeat 0 0;
+        -webkit-background-size: 100% 100%;
+                background-size: 100% 100%;
+        vertical-align: middle; }
+      .block_first .list_box ul li .icon_text i.baoe {
+        display: inline-block;
+        width: 0.576rem;
+        height: 0.55467rem;
+        margin-right: 0.32rem;
+        background: url("../images/icon2.png") no-repeat 0 0;
+        -webkit-background-size: 100% 100%;
+                background-size: 100% 100%;
+        vertical-align: middle; }
+      .block_first .list_box ul li .icon_text i.baofei {
+        display: inline-block;
+        width: 0.512rem;
+        height: 0.512rem;
+        margin-right: 0.32rem;
+        background: url("../images/icon3.png") no-repeat 0 0;
+        -webkit-background-size: 100% 100%;
+                background-size: 100% 100%;
+        vertical-align: middle; }
+      .block_first .list_box ul li .icon_text i.time {
+        display: inline-block;
+        width: 0.49067rem;
+        height: 0.49067rem;
+        margin-right: 0.32rem;
+        background: url("../images/icon4.png") no-repeat 0 0;
+        -webkit-background-size: 100% 100%;
+                background-size: 100% 100%;
+        vertical-align: middle; }
+    .block_first .list_box ul li .name_text {
+      font-size: 0.512rem;
+      color: #333; }
+
+.sas_performance {
+  margin-bottom: 0.85333rem;
+  background: #f7f7f7; }
+  .sas_performance #scroller2 #pullUp2 .pullUpLabel {
+    text-align: center;
+    display: block;
+    margin-top: 0.64rem;
+    font-size: 0.512rem; }
+  .sas_performance #scroller2 .indext_bottom_prompt2 {
+    margin-top: 0.64rem; }
+    .sas_performance #scroller2 .indext_bottom_prompt2 .indext_prompt2 {
+      display: block;
+      text-align: center;
+      font-size: 0.512rem;
+      color: #b2b2b2;
+      padding: 0.59733rem 0;
+      background-color: #f7f7f7; }
+    .sas_performance #scroller2 .indext_bottom_prompt2 .loadimg2 {
+      height: 1.70667rem;
+      text-align: center;
+      display: none; }
+      .sas_performance #scroller2 .indext_bottom_prompt2 .loadimg2 img {
+        height: 100%; }
+
+/* 销售业绩列表为空样式 */
+.list_empty_page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 2.09067rem;
+  background-color: #fff; }
+  .list_empty_page .empty_img {
+    width: 8.53333rem;
+    height: 8.53333rem;
+    margin: 0 auto;
+    margin-top: 25%; }
+    .list_empty_page .empty_img img {
+      display: block;
+      width: 100%; }
+  .list_empty_page .empty_prompt_text {
+    margin-top: 0.64rem;
+    text-align: center;
+    padding: 0 3.072rem;
+    font-size: 0; }
+    .list_empty_page .empty_prompt_text span {
+      display: inline-block;
+      font-size: 0.55467rem;
+      color: #808080;
+      line-height: 1.5;
+      text-align: left; }

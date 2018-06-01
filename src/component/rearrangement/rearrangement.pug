@@ -1,0 +1,28 @@
+//-
+  @Author: 张焱鑫
+  @Date:   2018-02-05 20:01:23
+  @Last Modified by:   张焱鑫
+  @Last Modified time: 2018-02-06 13:18:09
+.rearrangement
+    div
+        span 价格
+        span
+            i.up
+            i.down
+    span.devide
+    div
+        span 人气
+        span
+            i.up
+            i.down
+    script.
+        const $reset = $('.rearrangement div')
+        $reset.on('click', function() {
+            $(this).siblings('div').attr({'class': ''})
+            if($(this).hasClass('decrease') || $(this).hasClass('increase')) {
+                $(this).toggleClass('decrease increase')
+            } else {
+                $(this).addClass('increase')
+            }
+        })
+

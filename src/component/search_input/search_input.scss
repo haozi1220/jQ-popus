@@ -1,0 +1,9 @@
+.search_input { height: q(60); padding: q(20); background-color: #fff; border-bottom: 1px solid #d9d9d9;
+    .si_cn { position: relative; width: 100%; height: 100%; background-color: #f5f5f5; border-radius: q(6); overflow: hidden; font-size: 0;
+        span { display: block; height: q(24); padding-left: q(45); background: url('../images/search.png') no-repeat; background-size: q(24) q(24); position: absolute; z-index: 1; font-size: q(24); color: #ccc; line-height: 1; top: 50%; margin-top: q(-12); }
+    }
+    input { position: relative; z-index: 2; width: q(650); padding-left: q(60); background-color: transparent; font-size: q(24); line-height: q(60); outline: none; border: 0; }
+    &.black { background-color: #f5f5f5; position: fixed; top: 0; left: 0; border-bottom: 0; z-index: 2;
+        .si_cn { background-color: #fff;}
+    }
+}

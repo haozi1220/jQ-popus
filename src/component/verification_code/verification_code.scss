@@ -1,0 +1,9 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-07 11:16:48
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-07 13:41:10
+*/
+.verification_code { display: inline-block; padding: 0 q(6); font-size: q(25); line-height: q(50); color: #ccc; background-color: #fafafa; border-radius: q(7); border: 1px solid #e6e6e6;
+    &.count { color: #666; }
+}

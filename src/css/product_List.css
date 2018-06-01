@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*
+ * @Author: 王钰川
+ * @Date: 2018-02-06 10:39:50
+ * @Last Modified by: 王钰川
+ * @Last Modified time: 2018-03-13 15:07:45
+ */
+/*单位*/
+html,
+body {
+  background-color: #fff;
+  height: 100%; }
+
+.product_Listpage {
+  padding: 0 0.42667rem;
+  height: 100%; }
+  .product_Listpage ul {
+    padding-top: 5.76rem; }
+    .product_Listpage ul .proListMod {
+      width: 100%;
+      height: 6.912rem;
+      margin-bottom: 0.42667rem;
+      -webkit-border-radius: 0.40533rem;
+              border-radius: 0.40533rem;
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain;
+      -webkit-box-shadow: -1px 1px 2px 2px rgba(51, 51, 51, 0.1);
+              box-shadow: -1px 1px 2px 2px rgba(51, 51, 51, 0.1);
+      position: relative; }
+      .product_Listpage ul .proListMod a {
+        display: block;
+        height: 100%; }
+        .product_Listpage ul .proListMod a .proListMod_cover {
+          background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%, transparent), color-stop(88%, #000), to(#000));
+          background: -webkit-linear-gradient(transparent, transparent 55%, #000 88%, #000);
+          background: -o-linear-gradient(transparent, transparent 55%, #000 88%, #000);
+          background: linear-gradient(transparent, transparent 55%, #000 88%, #000);
+          opacity: .35;
+          width: 100%;
+          height: 100%;
+          -webkit-border-radius: 0.40533rem;
+                  border-radius: 0.40533rem; }
+        .product_Listpage ul .proListMod a .modContent_left {
+          color: #fff;
+          font-size: 0.59733rem;
+          position: absolute;
+          left: 0.42667rem;
+          bottom: 0.42667rem;
+          line-height: 0.768rem; }
+          .product_Listpage ul .proListMod a .modContent_left h3 {
+            width: 7.76533rem; }
+          .product_Listpage ul .proListMod a .modContent_left h4 {
+            opacity: .6;
+            font-size: 0.53333rem;
+            width: 7.46667rem; }
+        .product_Listpage ul .proListMod a .modContent_right {
+          color: #fff;
+          position: absolute;
+          right: 0.42667rem;
+          bottom: 0.42667rem; }
+          .product_Listpage ul .proListMod a .modContent_right p {
+            display: inline-block;
+            font-size: 0.57173rem; }
+          .product_Listpage ul .proListMod a .modContent_right h1 {
+            display: inline-block;
+            font-size: 1.33547rem;
+            max-width: 4.69333rem;
+            vertical-align: bottom; }
+          .product_Listpage ul .proListMod a .modContent_right h2 {
+            display: inline-block;
+            font-size: 0.64rem; }
+        .product_Listpage ul .proListMod a h6 {
+          position: absolute;
+          right: 0;
+          top: 0.32rem;
+          color: #fff; }
+          .product_Listpage ul .proListMod a h6 span {
+            position: absolute;
+            right: 0.128rem;
+            top: 0.23467rem;
+            font-size: 0.4608rem; }
+          .product_Listpage ul .proListMod a h6 img {
+            width: 2.624rem;
+            height: 0.74667rem; }
+  .product_Listpage .pullUpLabel {
+    text-align: center;
+    display: block;
+    margin-top: 0.64rem;
+    height: 2.13333rem; }
+  .product_Listpage .indext_bottom_prompt {
+    margin: 0.64rem -0.42667rem 0; }
+    .product_Listpage .indext_bottom_prompt .indext_prompt {
+      display: block;
+      text-align: center;
+      font-size: 0.512rem;
+      color: #b2b2b2;
+      padding: 0.59733rem 0;
+      background-color: #f7f7f7; }
+    .product_Listpage .indext_bottom_prompt .loadingimg {
+      height: 1.70667rem;
+      text-align: center;
+      display: none; }
+      .product_Listpage .indext_bottom_prompt .loadingimg img {
+        height: 100%; }

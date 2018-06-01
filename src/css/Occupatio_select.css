@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*
+ * @Author: 王钰川 
+ * @Date: 2018-03-12 13:34:04 
+ * @Last Modified by: 王钰川
+ * @Last Modified time: 2018-03-14 13:18:05
+ */
+/*单位*/
+.OSDiv {
+  z-index: 3;
+  height: 100%;
+  position: fixed;
+  top: 0; }
+  .OSDiv .OStitle {
+    z-index: 1;
+    width: 100%;
+    height: 2.176rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; }
+    .OSDiv .OStitle .toLeft {
+      position: absolute;
+      left: 1.28rem;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%); }
+      .OSDiv .OStitle .toLeft img {
+        width: 0.29867rem;
+        height: 0.49067rem;
+        display: block; }
+    .OSDiv .OStitle .title {
+      text-align: center;
+      line-height: 2.176rem;
+      font-size: 0.68267rem;
+      color: #333; }
+  .OSDiv .OSbody {
+    height: 100%; }
+    .OSDiv .OSbody * {
+      -webkit-overflow-scrolling: touch;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box; }
+    .OSDiv .OSbody .OSbody_leftbox {
+      height: 100%;
+      width: 6.08rem;
+      border-right: 1px solid #e5e5e5;
+      padding-top: 2.176rem;
+      background-color: #fff; }
+    .OSDiv .OSbody .OSbody_left {
+      overflow-y: auto;
+      height: 100%; }
+      .OSDiv .OSbody .OSbody_left li {
+        font-size: 0.59733rem;
+        padding: 0.53333rem 1.28rem 0.53333rem 0.85333rem;
+        line-height: 1.024rem;
+        background-color: #fff;
+        color: #333; }
+        .OSDiv .OSbody .OSbody_left li.active {
+          background-color: #f5f5f5;
+          color: #3aa5ff; }
+    .OSDiv .OSbody .OSbody_right {
+      padding-top: 2.176rem;
+      margin-top: -2.176rem;
+      width: 9.92rem;
+      top: 2.176rem;
+      left: 6.08rem;
+      font-size: 0.59733rem;
+      line-height: 1.024rem;
+      color: #666;
+      position: fixed;
+      background-color: #f5f5f5;
+      height: 100%; }
+      .OSDiv .OSbody .OSbody_right ul {
+        height: 100%;
+        overflow-y: auto;
+        display: none; }
+        .OSDiv .OSbody .OSbody_right ul.RightActive {
+          display: block; }
+        .OSDiv .OSbody .OSbody_right ul li {
+          padding: 0.53333rem 1.92rem;
+          border-bottom: 1px solid #e5e5e5; }

@@ -1,0 +1,24 @@
+/*
+* @Author: 李杰
+* @Date:   2018-02-06 16:09:55
+* @Last Modified by:   马凯
+* @Last Modified time: 2018-02-08 20:44:29
+*/
+.btn_group { display: flex; align-items: center; justify-content: space-around;
+    a { flex: 0 1 q(312); height: q(85); line-height: q(85); text-align: center; border-radius: q(42.5); background-color: #ccc; color: #fff; font-size: q(32);
+        &:active { background-color: #b9b2b2;}
+        &:nth-child(1) { background-color: #309afc;
+            &:active { background-color: #057dec;}
+        }
+        &.disable{
+            background-color: #ccc;
+        }
+
+    }
+}
+.btn_single { text-align: center;
+    a { display: inline-block; width: q(500); height: q(85); line-height: q(85); border-radius: q(44); background: #3aa5ff; color: #fff; font-size: q(32);
+        &:active { background-color: #057dec;}
+        &.disable{background-color: #ccc;}
+    }
+}

@@ -1,0 +1,17 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-07 09:26:17
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-03-28 14:43:24
+*/
+.pop_ups { max-width: q(570); position: fixed; top: 50%; left: 50%; background-color: rgba(0, 0, 0, .8); box-sizing: content-box; z-index: 2; border-radius: q(15); opacity: 1; transition: opacity ease-in .2s; transform: translate(-50%, -50%);
+    .pop_container { padding: q(50) q(40);}
+    p { font-size: q(26); line-height: 1.4; text-align: center; color: #fff;
+        span { display: inline-block; text-align: left;}
+    }
+    &.hide { opacity: 0; }
+    &.unServed { width: auto; text-align: center;
+        span { display: inline-block; width: q(55); height: q(55); background: url('../images/unServeredNow.png') no-repeat; background-size: cover; margin: q(-10) 0 q(40); }
+        p { width: q(350); text-align: left; font-size: q(28); line-height: q(47); color: #fff; }
+    }
+}

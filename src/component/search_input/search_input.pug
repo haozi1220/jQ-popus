@@ -1,0 +1,59 @@
+//-
+  @Author: 张焱鑫
+  @Date:   2018-02-05 16:32:13
+  @Last Modified by:   张焱鑫
+  @Last Modified time: 2018-03-19 15:51:39
+mixin search_input(search)
+        .search_input
+            .si_cn
+                form(action="")
+                    input(type="search")
+                span= search
+            script.
+                var $span = $('.si_cn span')
+                var $input = $('.si_cn input')
+                var W = $('.si_cn').outerWidth()
+                var w = $span.outerWidth()
+                var left = (W - w) / 2
+                var text = $span.html()
+                $span.css('left', left)
+                $input.focus(function() {
+                    $span.animate({'left': 10}, 'fast', function() {
+                        $span.html('')
+                        $input.attr('placeholder', text)
+                    })
+                })
+                $input.focusout(function() {
+                    $(this).attr('placeholder', '')
+                    if(!$input[0].value){
+                        $span.html(text)
+                        $span.animate({'left': left}, 'fast')
+                    }
+                })
+mixin search_input_black(search)
+        .search_input.black
+            .si_cn
+                form(action="")
+                    input(type="search")
+                span= search
+            script.
+                var $span = $('.si_cn span')
+                var $input = $('.si_cn input')
+                var W = $('.si_cn').outerWidth()
+                var w = $span.outerWidth()
+                var left = (W - w) / 2
+                var text = $span.html()
+                $span.css('left', left)
+                $input.focus(function() {
+                    $span.animate({'left': 10}, 'fast', function() {
+                        $span.html('')
+                        $input.attr('placeholder', text)
+                    })
+                })
+                $input.focusout(function() {
+                    $(this).attr('placeholder', '')
+                    if(!$input[0].value){
+                        $span.html(text)
+                        $span.animate({'left': left}, 'fast')
+                    }
+                })

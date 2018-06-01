@@ -1,0 +1,28 @@
+/*
+* @Author: 李杰
+* @Date:   2018-02-07 10:33:29
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-07 15:54:25
+*/
+.agreement_box { background-color: #fff; box-shadow: 0 6px 4px 0 #e6e6e6;
+    .agreement_items_box { margin-left: q(190); font-size: 0; margin-right: q(40); line-height: 1.4; padding-top: q(20);
+        .aib_text { font-size: q(28); color: #363636; display: inline-block; vertical-align: top; margin-left: q(-150);}
+        .aib_item { font-size: q(26); display: inline-block; vertical-align: top;
+            a { color: #1596f6; display: inline-block;}
+        }
+    }
+    .agreement_items { color: #333; padding: 0 q(40) q(5);
+        label { display: block; font-size: 0; margin: q(10) 0 q(15); }
+        span { font-size: q(23); display: inline-block; max-width: q(630); vertical-align: middle; line-height: 1.4; }
+        i { display: inline-block; vertical-align: middle; width: q(25); height: q(25); margin-right: q(14); background-image: url('../images/checkbox_uncheck_icon.png'); background-size: cover; }
+        input { position: absolute; opacity: 0;
+            &:checked + i { background-image: url('../images/checkbox_check_icon.png'); }
+        }
+    }
+}
+.agreement {
+    .agreement_prompt { min-height: q(64);  padding: 0 q(40);
+        span { background-color: #f7f7f7; font-size: q(24); color: #b3b3b3; }
+        .ap_title { color: #666; }
+    }
+}

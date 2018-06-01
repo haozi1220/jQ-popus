@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*
+* @Author: 王宝杰
+* @Date:   2018-02-05 16:20:31
+* @Last Modified by:   李杰
+* @Last Modified time: 2018-02-22 13:37:29
+*/
+/*单位*/
+.big_out_box {
+  padding: 1.06667rem 0.85333rem;
+  background: #fff; }
+
+.margin_t {
+  margin-top: 0; }
+
+.welcome_font {
+  margin: 1.38667rem 0;
+  width: 100%;
+  height: auto; }
+  .welcome_font h1 {
+    font-size: 1.49333rem;
+    color: #333;
+    display: inline-block;
+    margin-right: 0.21333rem;
+    letter-spacing: 0.21333rem; }
+  .welcome_font span {
+    font-size: 0.74667rem;
+    color: #999; }
+
+.input_big_box .span_name {
+  font-size: 0.46933rem;
+  color: #999; }
+
+.input_big_box input {
+  outline: none;
+  background: none;
+  display: block;
+  width: 100%;
+  padding-bottom: 0.53333rem;
+  margin-top: 0.32rem;
+  font-size: 0.64rem; }
+  .input_big_box input.input_red_color {
+    color: #fc3a3a; }
+  .input_big_box input.input_color {
+    color: #333; }
+  .input_big_box input.input_lang {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 4.90667rem;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 4.90667rem;
+            flex: 0 1 4.90667rem; }
+
+.input_big_box input::-ms-input-placeholder {
+  font-size: 0.64rem;
+  color: #ccc; }
+
+.input_big_box input::-webkit-input-placeholder {
+  font-size: 0.64rem;
+  color: #ccc; }
+
+.input_big_box input::-moz-placeholder {
+  font-size: 0.64rem;
+  color: #ccc; }
+
+.input_big_box .span_red {
+  display: none;
+  color: #fc3a3a;
+  font-size: 0.46933rem;
+  text-align: right;
+  width: 100%; }
+  .input_big_box .span_red.no_margi {
+    margin-top: 0; }
+  .input_big_box .span_red.have_mar {
+    margin-bottom: 0.42667rem; }
+
+.btn_binding {
+  width: 4.05333rem;
+  line-height: 1.81333rem;
+  margin-top: 1.06667rem;
+  display: block;
+  text-align: center;
+  font-size: 0.55467rem;
+  color: #fff;
+  -webkit-border-radius: 1.06667rem;
+          border-radius: 1.06667rem; }
+  .btn_binding.gray_bg {
+    background: #ccc; }
+  .btn_binding.blue_bg {
+    background: #309afc; }
+
+.position_input {
+  position: relative; }
+
+.btn_send {
+  position: absolute;
+  right: 0;
+  bottom: 0.42667rem; }
+  .btn_send.sended {
+    font-size: 0.49067rem; }
+  .btn_send.sending {
+    font-size: 0.55467rem; }
+  .btn_send.bottom_ing {
+    bottom: 0.36267rem; }
+
+.hr_line {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.42667rem; }
+  .hr_line.input_gray {
+    border-bottom: 1px solid #e6e6e6; }
+  .hr_line.input_blue {
+    border-bottom: 1px solid #98ceff; }
+  .hr_line.input_red {
+    border-bottom: 1px solid #fc3a3a; }

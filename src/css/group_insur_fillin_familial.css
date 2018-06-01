@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-09 08:56:24
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-03-16 16:41:19
+*/
+.grp_fillIn_famil {
+  margin: 0.42667rem 0 2.34667rem; }
+  .grp_fillIn_famil .prod_info {
+    padding: 0 0.42667rem;
+    background-color: #fff;
+    margin-bottom: 0.42667rem;
+    -webkit-box-shadow: 0 3px 3px 0 #e5e5e5;
+            box-shadow: 0 3px 3px 0 #e5e5e5; }
+    .grp_fillIn_famil .prod_info h2, .grp_fillIn_famil .prod_info h3 {
+      color: #309afc;
+      font-size: 0.64rem;
+      line-height: 1.92rem;
+      padding-left: 0.85333rem;
+      background: url("../images/image.png") 0.21333rem center no-repeat;
+      -webkit-background-size: 0.49067rem 0.49067rem;
+              background-size: 0.49067rem 0.49067rem; }
+      .grp_fillIn_famil .prod_info h2.policy_holder, .grp_fillIn_famil .prod_info h3.policy_holder {
+        background-image: url("../images/out_people.png"); }
+      .grp_fillIn_famil .prod_info h2.be_insured, .grp_fillIn_famil .prod_info h3.be_insured {
+        background-image: url("../images/pich_item5_icon.png"); }
+      .grp_fillIn_famil .prod_info h2.benefits, .grp_fillIn_famil .prod_info h3.benefits {
+        background-image: url("../images/beneficiary_title_bg.png"); }
+      .grp_fillIn_famil .prod_info h2.production_info, .grp_fillIn_famil .prod_info h3.production_info {
+        background-image: url("../images/prod_info.png"); }
+    .grp_fillIn_famil .prod_info .info {
+      padding: 0.85333rem 0.42667rem;
+      border-top: 1px solid #e6e6e6; }
+      .grp_fillIn_famil .prod_info .info h3 {
+        color: #333;
+        line-height: 1;
+        border: 0;
+        padding: 0; }
+      .grp_fillIn_famil .prod_info .info .details {
+        display: block;
+        margin: 0.42667rem 0 0.64rem;
+        color: #808080;
+        font-size: 0.42667rem;
+        border-left: 1px solid #333;
+        padding-left: 0.42667rem; }
+      .grp_fillIn_famil .prod_info .info p {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+           -moz-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        font-size: 0.55467rem;
+        height: 1.28rem; }
+        .grp_fillIn_famil .prod_info .info p span {
+          color: #808080;
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 1 auto;
+             -moz-box-flex: 0;
+              -ms-flex: 0 1 auto;
+                  flex: 0 1 auto;
+          line-height: 1; }
+        .grp_fillIn_famil .prod_info .info p .dp_colr {
+          color: #333;
+          text-align: right; }
+        .grp_fillIn_famil .prod_info .info p .figure {
+          font-size: 0.46933rem;
+          line-height: 1; }
+      .grp_fillIn_famil .prod_info .info .mini_sum {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+           -moz-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        border-top: 1px dashed #e1e1e1;
+        margin-top: 0.85333rem; }
+        .grp_fillIn_famil .prod_info .info .mini_sum span {
+          font-size: 0.55467rem;
+          color: #666;
+          -webkit-align-self: flex-end;
+              -ms-flex-item-align: end;
+                  align-self: flex-end; }
+          .grp_fillIn_famil .prod_info .info .mini_sum span.big {
+            font-size: 0.81067rem;
+            color: #333; }
+    .grp_fillIn_famil .prod_info li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      min-height: 1.70667rem;
+      padding: 0 0.42667rem;
+      font-size: 0.55467rem;
+      border-top: 1px solid #e6e6e6; }
+      .grp_fillIn_famil .prod_info li span {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 auto;
+           -moz-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto; }
+        .grp_fillIn_famil .prod_info li span input, .grp_fillIn_famil .prod_info li span select {
+          text-align: right;
+          outline: none;
+          background-color: transparent;
+          border: 0;
+          -webkit-appearance: none; }
+        .grp_fillIn_famil .prod_info li span select {
+          direction: rtl; }
+        .grp_fillIn_famil .prod_info li span .birth {
+          min-width: 2.13333rem;
+          height: 1.664rem; }
+      .grp_fillIn_famil .prod_info li .male span, .grp_fillIn_famil .prod_info li .female span {
+        padding: 0.14933rem 0.42667rem;
+        color: #999;
+        background-color: #f2f2f2;
+        border: 1px solid #e6e6e6;
+        -webkit-border-radius: 0.14933rem;
+                border-radius: 0.14933rem; }
+      .grp_fillIn_famil .prod_info li .male input:checked + span, .grp_fillIn_famil .prod_info li .female input:checked + span {
+        background-color: #daeafc;
+        color: #309afc;
+        border-color: #309afc; }
+      .grp_fillIn_famil .prod_info li .male.female span, .grp_fillIn_famil .prod_info li .female.female span {
+        margin-left: 0.64rem; }
+      .grp_fillIn_famil .prod_info li .male.female input:checked + span, .grp_fillIn_famil .prod_info li .female.female input:checked + span {
+        background-color: #fcf2f2;
+        color: #f33939;
+        border-color: #f33939; }
+      .grp_fillIn_famil .prod_info li.email .email_select li {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+           -moz-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        border-top: 0; }
+      .grp_fillIn_famil .prod_info li.address textarea {
+        width: 8.74667rem;
+        padding: 0.42667rem 0;
+        border: 0;
+        outline: none;
+        text-align: right; }
+      .grp_fillIn_famil .prod_info li.insur_people {
+        background-color: #fafdff; }
+        .grp_fillIn_famil .prod_info li.insur_people span {
+          color: #309afc; }
+      .grp_fillIn_famil .prod_info li.operate {
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around; }
+        .grp_fillIn_famil .prod_info li.operate span {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 1 auto;
+             -moz-box-flex: 0;
+              -ms-flex: 0 1 auto;
+                  flex: 0 1 auto;
+          text-align: center;
+          line-height: 1.06667rem;
+          color: #b3b3b3;
+          border: 1px solid #e6e6e6;
+          -webkit-border-radius: 0.14933rem;
+                  border-radius: 0.14933rem;
+          margin: 0.42667rem 0;
+          padding: 0 0.42667rem; }
+        .grp_fillIn_famil .prod_info li.operate .add {
+          color: #309afc;
+          border: 1px solid #309afc; }
+        .grp_fillIn_famil .prod_info li.operate .delete {
+          color: #e84040;
+          border: 1px solid #e84040; }
+      .grp_fillIn_famil .prod_info li.beneficiary span {
+        line-height: 1.4;
+        padding: 0.42667rem 0; }
+      .grp_fillIn_famil .prod_info li .auto {
+        border-left: 0.128rem solid #f16c2b;
+        color: #f16c2b;
+        padding-left: 3px;
+        line-height: 1; }
+      .grp_fillIn_famil .prod_info li .select_input {
+        max-width: 70%;
+        line-height: 1.4;
+        text-align: right;
+        padding: 0.53333rem;
+        background: url("../images/arrow.png") right no-repeat;
+        -webkit-background-size: 0.27733rem 0.49067rem;
+                background-size: 0.27733rem 0.49067rem; }
+        .grp_fillIn_famil .prod_info li .select_input select {
+          width: 100%; }
+      .grp_fillIn_famil .prod_info li .select_input.occupation {
+        text-align: right;
+        max-width: 83%; }
+        .grp_fillIn_famil .prod_info li .select_input.occupation span {
+          display: inline-block;
+          text-align: left;
+          line-height: 1.4; }
+      .grp_fillIn_famil .prod_info li .date {
+        padding-right: 0.832rem;
+        background: url("../images/yicon_1.png") right no-repeat;
+        -webkit-background-size: 0.832rem 0.832rem;
+                background-size: 0.832rem 0.832rem; }
+    .grp_fillIn_famil .prod_info.prod_info_edit {
+      padding: 0; }
+      .grp_fillIn_famil .prod_info.prod_info_edit h2 {
+        margin: 0 0.42667rem; }
+      .grp_fillIn_famil .prod_info.prod_info_edit li {
+        margin: 0 0.42667rem; }
+        .grp_fillIn_famil .prod_info.prod_info_edit li.insur_people {
+          margin: 0;
+          padding: 0 0.85333rem;
+          border: 0;
+          position: relative; }
+          .grp_fillIn_famil .prod_info.prod_info_edit li.insur_people:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0.42667rem;
+            right: 0.42667rem;
+            height: 1px;
+            background-color: #e6e6e6;
+            -webkit-transform: scaleY(0.8);
+                -ms-transform: scaleY(0.8);
+                    transform: scaleY(0.8); }
+        .grp_fillIn_famil .prod_info.prod_info_edit li.error_prompt {
+          margin: 0;
+          padding: 0 0.42667rem;
+          border-color: #fda3a3;
+          background-color: #fcf2f2;
+          color: #f33939; }
+          .grp_fillIn_famil .prod_info.prod_info_edit li.error_prompt input {
+            color: #f33939; }
+          .grp_fillIn_famil .prod_info.prod_info_edit li.error_prompt + li {
+            background-color: #fcf2f2;
+            color: #f33939;
+            border-color: #fda3a3;
+            -webkit-box-pack: end;
+            -webkit-justify-content: flex-end;
+               -moz-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+            text-align: right;
+            margin: 0;
+            padding: 0 0.42667rem;
+            font-size: 0.46933rem;
+            line-height: 0.896rem;
+            border-bottom: 1px solid #fda3a3; }
+            .grp_fillIn_famil .prod_info.prod_info_edit li.error_prompt + li span {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 1 100%;
+                 -moz-box-flex: 0;
+                  -ms-flex: 0 1 100%;
+                      flex: 0 1 100%;
+              line-height: 1.5; }
+
+.botton {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  .botton a {
+    display: block;
+    font-size: 0.64rem;
+    line-height: 1.92rem;
+    background-color: #309afc;
+    color: #fff;
+    text-align: center; }
+    .botton a:active {
+      background-color: #5c81fa; }

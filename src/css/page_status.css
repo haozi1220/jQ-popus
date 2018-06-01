@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*
+* @Author: 马凯
+* @Date:   2018-02-07 13:32:45
+* @Last Modified by:   程培培
+* @Last Modified time: 2018-02-10 11:42:25
+*/
+.page_status .page_status_fif {
+  margin: 4.26667rem auto;
+  text-align: center;
+  display: none; }
+  .page_status .page_status_fif img {
+    width: 8.53333rem; }
+  .page_status .page_status_fif p {
+    color: #3d3d3d;
+    font-size: 0.85333rem;
+    font-weight: bold;
+    margin-top: 0.53333rem; }
+
+.page_status .page_status_tw {
+  display: none;
+  margin: 4.26667rem auto;
+  text-align: center; }
+  .page_status .page_status_tw img {
+    width: 11.17867rem; }
+  .page_status .page_status_tw p {
+    color: #b3b3b3;
+    font-size: 0.72533rem;
+    font-weight: bold;
+    margin-top: 1.38667rem; }

@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        block title
+        meta(content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport")
+        meta(content="yes" name="apple-mobile-web-app-capable")
+        meta(content="black" name="apple-mobile-web-app-status-bar-style")
+        meta(content="telephone=no" name="format-detection")
+        meta(content="email=no" name="format-detection")
+        meta(http-equiv="X-UA-Compatible",content="IE=edge,chrome=1")
+        meta(name="renderer", content="webkit" )
+        link(rel="stylesheet" type="text/css" href="../../css/Normalize Css 1.0.min.css")
+        link(rel="stylesheet" href="../../css/main.css")
+        block styleLink
+        script(type="text/javascript" src="../../lib/js/jquery.min.js")
+        block scriptLink
+        script(type="text/javascript" src="../../main.js")
+        script(type='text/javascript').
+            ;(function(win, doc) {
+                function change() {
+                    doc.documentElement.style.fontSize = 20 * doc.documentElement.clientWidth / 320 + 'px';
+                }
+                change();
+                win.addEventListener('resize', function() {
+                    change();
+                }, false);
+            })(window, document);
+    body
+        block banner
+        block email
+        block banner_fixed
+        block banner_shrink
+        block business_card
+        block pop_ups
+        block verification_code
+        block search_input
+        block rearrangement
+        block classified_catalogue
+        block container
+        block btn_group
+        block homeTab
+        block immediate_payment
+        block winbox
+        block loading
+        block confirm_popups

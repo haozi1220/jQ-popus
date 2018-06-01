@@ -1,0 +1,49 @@
+//-
+  @Author: 张焱鑫
+  @Date:   2018-02-07 11:16:14
+  @Last Modified by:   张焱鑫
+  @Last Modified time: 2018-03-19 13:32:21
+div.verification_code
+    span.seconds
+    span.content 点击发送
+    script.
+        var sms_code = {
+            seconds: 0,
+            content: '',
+            flag: true,
+            countDown: function(seds) {
+                var _this = this;
+                var $container = $('.verification_code');
+                var $seconds = $('.verification_code .seconds');
+                var $content = $('.verification_code .content');
+                var timer = null;
+                if(_this.flag) {
+                    $container.on('touchstart', function(e) {
+                        e.stopPropagation();
+                        if(!_this.flag) return;
+                        _this.callBack();
+                        _this.flag = false;
+                        clearInterval(timer)
+                        _this.seconds = seds;
+                        $seconds.html(_this.seconds);
+                        $content.html('秒后重新获取');
+                        $container.addClass('count');
+                        timer = setInterval(function() {
+                            --_this.seconds;
+                            $seconds.html(_this.seconds);
+                            if(_this.seconds == 0) {
+                                _this.flag = true;
+                                clearInterval(timer);
+                                timer = null;
+                                $seconds.html('');
+                                $content.html('点击重新获取');
+                            }
+                        }, 1000);
+                    });
+                }
+            },
+            callBack: function() {
+                console.log('向后台执行发送请求')
+            }
+        }
+        sms_code.countDown(120);

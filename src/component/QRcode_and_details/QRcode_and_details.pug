@@ -1,0 +1,47 @@
+//-
+    @Author: 李杰
+    @Date:   2018-02-10 12:26:39
+    @Last modified by:   李杰
+    @Last Modified time: 2018-03-13 13:31:26
+mixin QRcode()
+    .QRcode_mask
+    .QRcode_pop
+        .QRcode_title
+            .title_top
+                i.icon
+                    img(src="images/product_name_icon.png", alt="")
+                h6.title 产品名称：
+            .title_bottom 安途宝
+        .QRcode_content
+            img(src="images/pop_QRcode_img.png", alt="")
+
+mixin details()
+    .detail_mask
+    .details_pop
+        .detail_pop_title 特别给付金缴纳保费10天后，给付首期保费x10%。
+        .detail_pop_box
+            .detail_pop_title 成长关爱金：
+            ul
+                -var list = ['自合同生效满一年起，成长关爱金按照以下约定给付：','1-5周岁保单生效对应日期内保单生效对应日零时生存 给付基本保额x10%/年。', '6-11周岁保单生效对应日期内的任一保单生效对应日 给付基本保额x30%/年。', '12-17周岁保单生效对应日期内保单生效对应日零时生 存，给付基本保额x20%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。', '18周岁保单生效对应日期至保险期间届满之前保单生效 对应日零时生存,给付基本保额x10%/年。']
+                each val in list
+                    li #{val}
+            .detail_pop_title 成长关爱金：
+            ul
+                -var list = ['自合同生效满一年起，成长关爱金按照以下约定给付：']
+                each val in list
+                    li #{val}
+        a(href="javascript:;").block_btn 我知道了
+
+//- 参数src为二维码路径地址
+mixin QRcodeTwo(src)
+    .QRcode_mask
+    .QRcode_pop
+        .QRcodeTwo_title
+            i.closi_icon
+                img(src='images/wrong1.png',alt="")
+        .QRcode_content
+            img(src=src, alt="")
+    script.
+        $('.QRcodeTwo_title').click(function (e) {
+            $.Modalhide('.QRcode_pop, .QRcode_mask');
+        });

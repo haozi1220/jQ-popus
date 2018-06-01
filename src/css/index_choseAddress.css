@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*
+ * @Author: 王钰川 
+ * @Date: 2018-02-05 17:25:09 
+ * @Last Modified by: 王钰川
+ * @Last Modified time: 2018-02-06 18:55:23
+ */
+/*单位*/
+.index_choseAddress {
+  margin-top: 2.176rem; }
+  .index_choseAddress .Initials {
+    font-size: 0.512rem;
+    padding: 0 0.85333rem;
+    height: 1.13067rem;
+    line-height: 1.13067rem; }
+  .index_choseAddress .addressBox {
+    overflow: hidden; }
+    .index_choseAddress .addressBox .provinceBar {
+      background-color: #fff;
+      font-size: 0.59733rem;
+      padding: 0 0.85333rem;
+      height: 1.70667rem;
+      line-height: 1.70667rem;
+      border-bottom: 1px solid #e5e5e5;
+      position: relative; }
+      .index_choseAddress .addressBox .provinceBar i {
+        position: absolute;
+        right: 0.85333rem;
+        top: 50%;
+        width: 0.34133rem;
+        height: 0.68267rem;
+        -webkit-transform: translateY(-50%) rotateZ(0);
+            -ms-transform: translateY(-50%) rotate(0);
+                transform: translateY(-50%) rotateZ(0);
+        -webkit-transition: -webkit-transform 1s;
+        transition: -webkit-transform 1s;
+        -o-transition: transform 1s;
+        transition: transform 1s;
+        transition: transform 1s, -webkit-transform 1s; }
+        .index_choseAddress .addressBox .provinceBar i img {
+          width: 100%;
+          height: 100%;
+          display: block; }
+        .index_choseAddress .addressBox .provinceBar i.rotate90 {
+          -webkit-transform: translateY(-20%) rotateZ(90deg);
+              -ms-transform: translateY(-20%) rotate(90deg);
+                  transform: translateY(-20%) rotateZ(90deg); }
+    .index_choseAddress .addressBox .cityBox {
+      display: none; }
+      .index_choseAddress .addressBox .cityBox ul {
+        padding: 0 0.85333rem;
+        font-size: 0.512rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        margin-right: -0.85333rem;
+        padding-top: 0.42667rem; }
+        .index_choseAddress .addressBox .cityBox ul li {
+          border: 1px solid #e6e6e6;
+          -webkit-border-radius: 0.192rem;
+                  border-radius: 0.192rem;
+          min-width: 2.03947rem;
+          height: 1.06667rem;
+          text-align: center;
+          line-height: 1.06667rem;
+          background-color: #fff;
+          margin-bottom: 0.32rem;
+          margin-right: 0.384rem;
+          padding: 0 0.21333rem; }
+          .index_choseAddress .addressBox .cityBox ul li.active {
+            color: #ef4443;
+            border-color: #ef4443;
+            background-color: inherit; }
+
+.searchWordsbox {
+  margin-top: -250%;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 2.13333rem;
+  padding-left: 0.85333rem;
+  font-size: 0.59733rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+  .searchWordsbox ul li {
+    border-bottom: 1px solid #e6e6e6;
+    height: 1.70667rem;
+    line-height: 1.70667rem; }
+    .searchWordsbox ul li span:first-child {
+      color: #3aa5ff; }

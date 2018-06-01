@@ -1,0 +1,37 @@
+/*
+* @Author: 李杰
+* @Date:   2018-02-10 12:31:06
+* @Last Modified by:   李杰
+* @Last Modified time: 2018-02-11 15:25:55
+*/
+.QRcode_pop { background-color: #fff; width: q(570); border-radius: q(20); position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2; padding: q(26) q(50); display: none;
+    .QRcode_title { border-bottom: 1px solid #e6e6e6;
+        .title_top { font-size: 0;
+            i.icon { display: inline-block; vertical-align: middle; width: q(19); height: q(29); margin-right: q(16);
+                img { display: block; width: 100%;}
+            }
+            h6.title { display: inline-block; vertical-align: middle; font-size: q(32); color: #309afc;}
+        }
+        .title_bottom { font-size: q(32); line-height: q(52); padding: q(10) 0 q(16);}
+    }
+    // 带有关闭按钮二维码弹窗
+    .QRcodeTwo_title { border-bottom: 0; text-align: right;
+        img { width: q(22); height: q(22); }
+    }
+    .QRcode_content { text-align: center; margin: q(40) 0 q(54);
+        img { width: q(532); height: q(530);}
+    }
+}
+.QRcode_mask { position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #000; @include alpha(.6); display: none; z-index: 2;}
+
+.details_pop { @extend .QRcode_pop; display: none;
+    .detail_pop_box { max-height: q(600); overflow-y: auto;}
+    .detail_pop_title {font-size: q(28); line-height: q(48); color: #333;}
+    ul {
+        li { font-size: q(24); line-height: q(47); color: #808080; padding-right: q(20);}
+    }
+    .block_btn { display: block; width: q(500); margin: q(45) auto; height: q(85); line-height: q(85); border-radius: q(43); text-align: center; background-color: #3aa5ff; color: #fff; font-size: q(32);
+        &:active { background-color: #309afc;}
+    }
+}
+.detail_mask { @extend .QRcode_mask; display: none;}

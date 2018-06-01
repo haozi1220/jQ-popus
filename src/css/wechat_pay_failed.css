@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+* @Author: 仇少凯
+* @Date:   2018-02-07 11:24:40
+* @Last Modified by:   仇少凯
+* @Last Modified time: 2018-02-07 16:39:59
+*/
+.pay_failed_wrapp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; }
+  .pay_failed_wrapp .failed_btn_group {
+    margin-top: -6.4rem; }
+    .pay_failed_wrapp .failed_btn_group a {
+      display: block;
+      width: 10.624rem;
+      height: 1.74933rem;
+      border: 1px solid #3aa5ff;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 0.64rem;
+      line-height: 1.74933rem;
+      -webkit-border-radius: 0.93867rem;
+              border-radius: 0.93867rem; }
+      .pay_failed_wrapp .failed_btn_group a.repay_btn {
+        background-color: #3aa5ff;
+        color: #fff; }
+        .pay_failed_wrapp .failed_btn_group a.repay_btn:active {
+          background-color: #057dec; }
+      .pay_failed_wrapp .failed_btn_group a.back_home {
+        margin-top: 0.64rem;
+        background-color: #fff;
+        color: #3aa5ff; }
+        .pay_failed_wrapp .failed_btn_group a.back_home:active {
+          background-color: #f4f4f4; }
+  .pay_failed_wrapp .page_status_fif {
+    margin: 2.98667rem auto;
+    text-align: center;
+    padding-bottom: 8.53333rem; }
+    .pay_failed_wrapp .page_status_fif img {
+      width: 8.53333rem; }
+    .pay_failed_wrapp .page_status_fif p {
+      color: #3d3d3d;
+      font-size: 0.85333rem;
+      font-weight: bold;
+      margin-top: 0.53333rem; }

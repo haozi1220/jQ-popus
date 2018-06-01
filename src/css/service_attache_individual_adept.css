@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+* @Author: 仇少凯
+* @Date:   2018-02-06 10:01:07
+* @Last Modified by:   仇少凯
+* @Last Modified time: 2018-02-08 12:29:33
+*/
+.content_wrapp {
+  padding-right: 0.85333rem;
+  padding-left: 0.85333rem; }
+  .content_wrapp .filed_wrapp {
+    overflow-y: auto; }
+    .content_wrapp .filed_wrapp .filed_title {
+      margin-top: 1.23733rem;
+      font-size: 0.68267rem;
+      color: #424242; }
+    .content_wrapp .filed_wrapp .safeguard_list {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-content: flex-start;
+          -ms-flex-line-pack: start;
+              align-content: flex-start;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin-top: 0.384rem; }
+      .content_wrapp .filed_wrapp .safeguard_list .safeguard_item {
+        display: block;
+        width: 4.20267rem;
+        margin-top: 0.66133rem;
+        padding: 0.34133rem 0;
+        text-align: center;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 0.68267rem;
+                border-radius: 0.68267rem;
+        font-size: 0.55467rem;
+        color: #666; }
+        .content_wrapp .filed_wrapp .safeguard_list .safeguard_item.safeguard_item_active {
+          border-color: #ef4443;
+          color: #ef4443; }
+
+.btn_wrapp_top {
+  margin-top: 15.65867rem;
+  margin-bottom: 3.2rem; }

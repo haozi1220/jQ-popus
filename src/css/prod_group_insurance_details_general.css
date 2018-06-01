@@ -1,0 +1,55 @@
+.product_home {
+  background-color: #f7f7f7; }
+  .product_home .header {
+    position: relative;
+    height: 18.33rem; }
+    .product_home .header.small {
+      height: 14.93333rem; }
+      .product_home .header.small .banner {
+        height: 14.93333rem; }
+        .product_home .header.small .banner .txt {
+          padding-top: 11.5rem; }
+    .product_home .header .banner {
+      height: 18.33rem;
+      width: 100%;
+      background: url("../images/banner-prohome.jpg") no-repeat #fff;
+      -webkit-background-size: cover;
+              background-size: cover;
+      -webkit-transition: all .7s;
+      -o-transition: all .7s;
+      transition: all .7s;
+      background-position: center; }
+      .product_home .header .banner .txt {
+        color: #fff;
+        width: 76%;
+        margin: 0 auto;
+        padding-top: 12.5rem;
+        -webkit-transition: all .7s;
+        -o-transition: all .7s;
+        transition: all .7s; }
+        .product_home .header .banner .txt h2 {
+          font-size: 1.49333rem;
+          padding-bottom: 0.46933rem;
+          margin-bottom: 0.46933rem;
+          border-bottom: 1px dashed; }
+        .product_home .header .banner .txt .subtit {
+          font-size: 0.512rem; }
+    .product_home .header .chart_code {
+      position: absolute;
+      top: 0;
+      left: 1.49333rem;
+      width: 1.70667rem;
+      height: 2.47467rem;
+      background: url("../images/icon-chatcode.png") no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+  .product_home .main .box_cut {
+    border-top: 1px solid #f5f5f5;
+    margin-bottom: 0.42667rem;
+    padding: 0 0.85333rem 1px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 1px #e7e7e7;
+            box-shadow: 0 2px 2px 1px #e7e7e7; }
+    .product_home .main .box_cut.pro_tab {
+      padding-top: 0.85333rem;
+      border-top: none; }

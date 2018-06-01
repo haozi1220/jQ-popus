@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*
+* @Author: 王宝杰
+* @Date:   2018-02-05 16:20:31
+* @Last Modified by:   王宝杰
+* @Last Modified time: 2018-02-07 15:03:10
+*/
+/*单位*/
+.pay_time {
+  font-size: 0.64rem;
+  color: #3d3d3d;
+  width: 100%;
+  background: #fff;
+  height: auto;
+  margin: 0.53333rem 0;
+  padding: 0.53333rem 0.85333rem;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 2px 2px #e5e5e5;
+          box-shadow: 0 2px 2px #e5e5e5; }
+
+.clause {
+  background: #fff;
+  padding: 0.53333rem 0.85333rem 0.10667rem;
+  color: #404040;
+  margin-bottom: 0.53333rem;
+  -webkit-box-shadow: 0 2px 2px #e5e5e5;
+          box-shadow: 0 2px 2px #e5e5e5; }
+  .clause .top_font {
+    font-size: 0.64rem;
+    width: 100%;
+    vertical-align: top;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 0.42667rem; }
+  .clause .first_top {
+    color: #3d3d3d;
+    font-size: 0.59733rem;
+    line-height: 0.85333rem;
+    margin: 0.42667rem 0; }
+  .clause ul {
+    padding: 0 0.85333rem;
+    font-size: 0.74667rem; }
+    .clause ul .list_span {
+      line-height: 0.98133rem;
+      margin-bottom: 0.42667rem;
+      list-style: disc;
+      color: #3aa5ff; }
+      .clause ul .list_span span {
+        vertical-align: top;
+        color: #666;
+        font-size: 0.55467rem; }

@@ -1,0 +1,14 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-11 12:47:14
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-03-16 15:46:27
+*/
+.confirm_popups { font-size: q(30); width: q(500); position: fixed; top: 50%; left: 50%; background-color: #fff; text-align: center; box-shadow: 3px 5px 20px #000; border-radius: q(20); z-index: 5; overflow: hidden;
+    p { padding: q(60) q(30) q(30); line-height: 1.2; text-align: center;
+        span { display: inline-block; text-align: left;}
+    }
+    .pop_btn_box { display: flex; align-items: center; justify-content: space-between; margin-left: -1px;}
+    a { flex: 1; line-height: q(70); color: #309afc; border-top: 1px solid #ccc; background-color: #eee; border-left: 1px solid #fff;}
+}
+.confirm_mask { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, .6); z-index: 4; }

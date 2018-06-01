@@ -1,0 +1,21 @@
+//-
+    @Author: 李杰
+    @Date:   2018-02-06 16:09:38
+    @Last modified by:   李杰
+    @Last Modified time: 2018-02-10 15:38:13
+mixin immediate_payment(clas)
+    .immediate_payment
+        .ip_left
+            .sum 保费合计:
+            .money_icon ￥
+            .price 30000.00
+        .explain(class!=clas)
+            span.text 说明
+            i.icon
+                img(src="images/up_icon.png", alt="")
+        a.pay_btn 立即支付
+    .mask
+    .explain_pop
+        .explain_pop_title  保费说明:
+        ul.explain_pop_text
+            li 由于保费计算误差，最终付款结果以实际支付为准。

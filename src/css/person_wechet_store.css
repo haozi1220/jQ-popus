@@ -1,0 +1,49 @@
+.business_card {
+  height: 7.38133rem; }
+  .business_card .avatar {
+    position: relative;
+    height: 100%; }
+    .business_card .avatar span {
+      position: absolute;
+      left: 1.28rem; }
+      .business_card .avatar span a {
+        display: none; }
+  .business_card .client_name {
+    position: absolute;
+    left: 5.44rem;
+    top: 2.64533rem; }
+  .business_card .profession {
+    position: absolute;
+    left: 5.44rem;
+    top: 4.30933rem; }
+  .business_card .wave {
+    bottom: -1px; }
+
+.create_td_code {
+  position: absolute;
+  top: 0;
+  right: 1.92rem;
+  width: 1.96267rem;
+  height: 2.41067rem; }
+  .create_td_code img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .create_td_code span {
+    position: absolute;
+    width: 100%;
+    font-size: 0.42667rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #4b4231; }
+    .create_td_code span:nth-of-type(1) {
+      top: 0.29867rem; }
+    .create_td_code span:nth-of-type(2) {
+      top: 0.96rem; }
+
+.rearrangement {
+  margin-top: 0.64rem;
+  border-top: 1px solid #e6e6e6; }
+
+.product_Listpage ul {
+  padding-top: 11.73333rem; }

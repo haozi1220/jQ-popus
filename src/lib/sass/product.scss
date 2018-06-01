@@ -1,0 +1,329 @@
+//孙杨博 2018/2/8
+// 包含页面
+// 产品详情：家庭 通用 学平 卡单类； i她 产品介绍
+//----------------------------------
+
+
+@function q($px) {
+    @return ($px / 46.875)+rem;
+}
+.product_home {
+    background-color: #f7f7f7;
+    .header {
+        position: relative;
+        //height: q(690);
+        &.small{
+            height: q(700);
+            .banner {
+                height: q(700);
+                .txt {
+                    padding-top: 11.5rem;
+                }
+            }
+        }
+        height: 18.33rem;
+        .banner {
+            height: 18.33rem;
+            width: 100%;
+            background: url("../images/banner-prohome.jpg") no-repeat #fff;
+            background-size:cover;
+            transition: all 0.7s;
+            background-position:center;
+            .txt {
+                color: #fff;
+                width: 76%;
+                margin: 0 auto;
+                padding-top: 12.5rem;
+                transition: all 0.7s;
+                h2 {
+                    font-size: q(70);
+                    padding-bottom: q(22);
+                    margin-bottom: q(22);
+                    border-bottom: 1px dashed;
+                }
+                .subtit {
+                    font-size: q(24);
+                }
+            }
+        }
+        .chart_code {
+            position: absolute;
+            top: 0;
+            left: q(70);
+            width: q(80);
+            height: q(116);
+            background: url(../images/icon-chatcode.png) no-repeat;
+            background-size: contain;
+        }
+
+
+    }
+    .main {
+
+        //盒子分割
+        .box_cut {
+            border-top: 1px solid #f5f5f5;
+            margin-bottom: q(20);
+            padding: 0 q(40) 1px;
+            background: #fff;
+            box-shadow: 0 2px 2px 1px rgba(231, 231, 231, 1);
+            &.pro_tab{
+                padding-top: q(40);
+                border-top: none;
+            }
+            &.only_bto {
+                padding: 1px 0 1px;
+            }
+            &.no_border {
+                border-top: 0;
+            }
+        }
+
+
+    }
+
+
+
+
+
+}
+
+//产品切换信息选项卡
+.pro_tab {
+
+    .tab_menu {
+        display: flex;
+        width: 100%;
+        height: q(75);
+        justify-content: center;
+        .item {
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            width: q(222);
+            height: q(75);
+            border: 1px solid;
+            border-radius: q(10);
+            color: rgba(178,178,178,1);
+            margin-left: q(4);
+            > span {
+                font-size: q(30);
+            }
+            &:first-child{
+                margin-left: 0;
+            }
+            &.active {
+                background: rgba( 21, 150, 246, 1 );
+                color: #fff;
+                border-color: rgba(21,150,246,1);
+                &:before{
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-bottom: q(10) solid #fff;
+                    border-left: q(15) solid transparent;
+                    border-right: q(15) solid transparent;
+                    transform: translate(0,q(35));
+                }
+
+            }
+        }
+    }
+    .tab_content{
+        .content_box{
+            display: none;
+            &:first-child{
+                display:block;
+            }
+        }
+    }
+}
+.box_list_tip{
+    .tip_tit{
+        padding-top: q(40);
+        color: #333;
+        font-size: q(32);
+        margin-bottom: q(15);
+    }
+    .tip_tit_add{
+        position: relative;
+        color: #666;
+        padding-left: q(18);
+        margin: q(5) 0;
+        font-size: q(22);
+        &:before{
+            position: absolute;
+            left: 0;
+            content: "";
+            height: 100%;
+            width: 0;
+            border-left:1px solid;
+        }
+    }
+    .list_price{
+        margin: q(20) 0 0;
+        padding-top: 1px;
+        padding-bottom: q(30);
+        .tip_item{
+            &:first-child{
+                margin-top: 0;
+            }
+            margin-top: q(38);
+            font-size: q(28);
+            display: flex;
+            justify-content: space-between;
+            .l{
+
+                .imfor{
+                    &:first-child{margin-top: 0;}
+                    color: #808080;
+                    margin-top: q(14);
+                    max-width: q(400);
+                    white-space: normal; word-wrap: break-word; word-break: break-all;
+                    &.ib{
+                        display: inline-block;
+                        margin-top: 0;
+                    }
+                }
+                .input_items { color: #808080;
+                    label { display: block; font-size: 0; }
+                    span { font-size: q(28); display: inline-block; max-width: q(630); vertical-align: middle; line-height: 1.4; }
+                    i { display: inline-block; vertical-align: middle; width: q(25); height: q(25); margin-right: q(14); background-image: url('../images/checkbox_uncheck_icon.png'); background-size: cover; }
+                    input { position: absolute; opacity: 0;
+                        &:checked + i { background-image: url('../images/checkbox_check_icon.png'); }
+                    }
+                }
+
+
+            }
+            .r{
+                text-align: right;
+                .price{
+                    color: #333;
+                    padding-right: q(20);
+                }
+                .light {
+                    color: #808080;
+                    font-size: q(26);
+                }
+                .icon-wrapper{
+                    display: inline-block;
+                    line-height: 0;
+                    font-size: 1rem;
+                }
+                .add{
+                    color: #666;
+                    font-size: q(22);
+                    padding-right: q(45);
+                    line-height: 1.5;
+                }
+            }
+
+        }
+    }
+
+}
+//列表价格总结部分
+.box_price_show{
+    display: flex;
+    height: q(80);
+    margin: 0 q(40) q(40);
+    border-top: 1px dashed #dadada;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .price{
+        color: #333;
+        font-size: q(24);
+        .val{
+            color: #666;
+            font-size: q(50);
+        }
+    }
+}
+//灰色背景的温馨提示条
+.box_reminder {
+    padding: 0 q(40);
+    margin-bottom: q(20);
+    font-size: q(24);
+    .tit {
+        color: #666;
+        padding-right: q(20);
+    }
+    .txt {
+        color: #b2b2b2;
+    }
+}
+
+//产品卡单折叠页点击横条
+.box_fold_switch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: q(90);
+    padding: 1px q(40);
+    background: #fff;
+    box-shadow: 0 2px 2px 1px rgba(231, 231, 231, 1);
+    margin-bottom: 2px;
+    .l{
+        color: #333;
+        //color: rgba(241, 108, 43, 1);
+        font-size: q(32);
+        >span{
+            padding-left: q(15);
+        }
+        &.c-black {
+            color: #333;
+        }
+    }
+    .r{
+        >span {
+            padding-right: 3px;
+        }
+        >.svg_ctrl {
+            display: none;
+            &.able{
+                display: inline-block;
+            }
+        }
+        font-size: q(28);
+        color: rgba(51, 51, 51, 1);
+    }
+}
+//产品卡单折叠页下方内容
+//与box_fold_switch平级
+.box_fold_content{
+    display: none;
+}
+.box_select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: q(82);
+    .l{
+        color: #333;
+        font-size: q(28);
+        >span{
+
+        }
+    }
+    .r{
+        font-size: q(28);
+        color: #b2b2b2;
+        .select_item {
+            background: #fff;
+            border: 0;
+            appearance:none;
+        }
+    }
+}
+
+
+
+//底端顶起价格栏的垫片，垫起公共组件
+.shim_bh {
+    height: q(115);
+}
+.p_m_20 {
+    margin-top: q(20);
+}

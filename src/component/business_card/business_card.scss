@@ -1,0 +1,35 @@
+/*
+* @Author: 张焱鑫
+* @Date:   2018-02-08 14:11:35
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-02-12 09:18:01
+*/
+.business_card { position: relative; height: q(464); background: linear-gradient(120deg, #65c6fc, #5c81fa); text-align: center;
+    .avatar { padding-top: q(68);
+        span { display: inline-block; position: relative;
+            .cont { width: q(169); height: q(169); border-radius: 50%; border: q(7) solid #5a96fe; background-color: #ccc; overflow: hidden; }
+        }
+        img { width: 100%; height: 100%; }
+        a { display: block; position: absolute; right: q(7); bottom: q(7); width: q(44); height: q(44); border-radius: 50%; background: url('../images/avatar_edit.png') no-repeat; background-size: cover; }
+    }
+    .client_name { margin: q(30) 0 q(20); font-size: q(46); color: #fff; }
+    .profession { font-size: q(30); color: #fff; }
+    .wave1, .wave2, .wave3 { width: 100%; height: q(40); position: absolute; left: 0; bottom: 0; background: url('../images/wave1.png') 0 0; background-size: 150% 100%; }
+    .wave2 { height: q(50); background: url('../images/wave2.png') 0 0; background-size: 150% 100%; }
+    .wave3 { background: url('../images/wave3.png') 0 0 no-repeat; background-size: 150% 100%; }
+    .wave1 { animation: wave1 12s linear infinite; }
+    .wave2 { animation: wave2 8s linear infinite; }
+    .wave3 { animation: wave3 10s linear infinite reverse; }
+    @keyframes wave1 {
+        0% { background-position: 0 0; }
+        100% { background-position: 150% 0; }
+    }
+    @keyframes wave2 {
+        0% { background-position: 0 0; }
+        100% { background-position: 150% 0; }
+    }
+    @keyframes wave3 {
+        0% { background-position: 0 0; }
+        100% { background-position: 150% 0; }
+    }
+}

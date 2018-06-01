@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/*
+* @Author: 李杰
+* @Date:   2018-02-08 15:21:36
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-03-16 15:59:59
+*/
+.per_insur_confirmedhealthy {
+  padding-bottom: 3.41333rem; }
+
+.pich_item1_box {
+  background-color: #eaf5f9;
+  padding: 0.85333rem 0.42667rem; }
+  .pich_item1_box .pich_item1 {
+    background-color: #fff;
+    -webkit-border-radius: 0.42667rem;
+            border-radius: 0.42667rem;
+    padding: 0.68267rem 0.384rem;
+    -webkit-box-shadow: 0 0 0.64rem #e3edf1;
+            box-shadow: 0 0 0.64rem #e3edf1;
+    padding-top: 0; }
+    .pich_item1_box .pich_item1 li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      font-size: 0.55467rem;
+      line-height: 0.768rem;
+      padding: 0.192rem 0.42667rem;
+      color: #808080; }
+      .pich_item1_box .pich_item1 li.title {
+        font-size: 0.68267rem;
+        color: #333;
+        padding-bottom: 0.64rem;
+        padding-top: 0.68267rem; }
+      .pich_item1_box .pich_item1 li.line {
+        border-bottom: 1px dashed #dadada;
+        margin: 0.53333rem 0;
+        padding: 0;
+        line-height: 0;
+        font-size: 0; }
+      .pich_item1_box .pich_item1 li .pich_item1_left {
+        width: 3.41333rem; }
+        .pich_item1_box .pich_item1 li .pich_item1_left .icon {
+          display: inline-block;
+          vertical-align: middle;
+          width: 0.59733rem;
+          height: 0.61867rem;
+          margin-right: 0.42667rem; }
+          .pich_item1_box .pich_item1 li .pich_item1_left .icon img {
+            display: block;
+            width: 100%; }
+        .pich_item1_box .pich_item1 li .pich_item1_left span {
+          display: inline-block;
+          vertical-align: middle; }
+      .pich_item1_box .pich_item1 li .pich_item1_right {
+        max-width: 8.53333rem; }
+        .pich_item1_box .pich_item1 li .pich_item1_right span {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; }
+          .pich_item1_box .pich_item1 li .pich_item1_right span i {
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 1 100%;
+               -moz-box-flex: 0;
+                -ms-flex: 0 1 100%;
+                    flex: 0 1 100%;
+            text-align: right;
+            font-style: normal; }
+      .pich_item1_box .pich_item1 li.flex_start {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+           -moz-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; }
+
+.pich_item2_box {
+  background-color: #fff;
+  margin-top: 0.42667rem;
+  -webkit-box-shadow: 0 0.21333rem 0.42667rem #e6e6e6;
+          box-shadow: 0 0.21333rem 0.42667rem #e6e6e6; }
+  .pich_item2_box.first {
+    margin-top: 0; }
+  .pich_item2_box li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-top: 1px solid #e6e6e6;
+    margin: 0 0.42667rem;
+    padding: 0.64rem 0; }
+    .pich_item2_box li.block_item {
+      display: block;
+      font-size: 0.55467rem;
+      line-height: 0.81067rem;
+      color: #333;
+      padding-left: 0.42667rem;
+      padding-right: 0.42667rem; }
+    .pich_item2_box li.title {
+      display: block;
+      font-size: 0;
+      border-top: 0;
+      margin-left: 0.85333rem; }
+      .pich_item2_box li.title.color_fafdff {
+        background-color: #fafdff;
+        margin: 0;
+        padding: 0.64rem 0.85333rem; }
+        .pich_item2_box li.title.color_fafdff.beneficiary {
+          padding: 0; }
+          .pich_item2_box li.title.color_fafdff.beneficiary h4 {
+            display: block;
+            padding: 0.64rem 0 0.64rem 0.74667rem;
+            border-top: 1px solid #e6e6e6;
+            margin: 0 0.42667rem; }
+      .pich_item2_box li.title i.icon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 0.55467rem;
+        height: 0.55467rem; }
+        .pich_item2_box li.title i.icon img {
+          display: block;
+          width: 100%; }
+      .pich_item2_box li.title h4 {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 0.68267rem;
+        color: #309afc;
+        margin-left: 0.32rem; }
+    .pich_item2_box li .pich_item2_left,
+    .pich_item2_box li .pich_item2_right {
+      font-size: 0.55467rem;
+      color: #333; }
+    .pich_item2_box li .pich_item2_left {
+      padding-left: 0.64rem;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 1 30%;
+         -moz-box-flex: 0;
+          -ms-flex: 0 1 30%;
+              flex: 0 1 30%; }
+      .pich_item2_box li .pich_item2_left.occupation {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 15%;
+           -moz-box-flex: 0;
+            -ms-flex: 0 1 15%;
+                flex: 0 1 15%; }
+    .pich_item2_box li .pich_item2_right {
+      padding-right: 0.64rem;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 1 85%;
+         -moz-box-flex: 0;
+          -ms-flex: 0 1 85%;
+              flex: 0 1 85%;
+      text-align: right; }
+      .pich_item2_box li .pich_item2_right.occupation span {
+        display: inline-block;
+        text-align: left;
+        line-height: 1.4; }
+
+.pich_item3_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.21333rem 0.42667rem #e6e6e6;
+          box-shadow: 0 0.21333rem 0.42667rem #e6e6e6;
+  margin: 0.42667rem 0;
+  padding: 0.55467rem 0.74667rem; }
+  .pich_item3_box .pib_left {
+    font-size: 0; }
+    .pich_item3_box .pib_left span {
+      display: inline-block;
+      vertical-align: middle; }
+      .pich_item3_box .pib_left span.line {
+        width: 0.128rem;
+        height: 0.78933rem;
+        background-color: #f16c2b; }
+      .pich_item3_box .pib_left span.text {
+        font-size: 0.59733rem;
+        color: #f16c2b;
+        margin-left: 0.21333rem; }
+    .pich_item3_box .pib_left i.icon {
+      display: inline-block;
+      vertical-align: middle;
+      width: 0.49067rem;
+      height: 0.53333rem; }
+      .pich_item3_box .pib_left i.icon img {
+        display: block;
+        width: 100%; }
+    .pich_item3_box .pib_left h5 {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 0.68267rem;
+      color: #f16c2b;
+      margin-left: 0.42667rem; }
+  .pich_item3_box .pib_right {
+    color: #333;
+    font-size: 0.59733rem; }
+    .pich_item3_box .pib_right.right_name {
+      font-size: 0; }
+    .pich_item3_box .pib_right span.name {
+      font-size: 0.59733rem;
+      display: inline-block;
+      vertical-align: middle; }
+    .pich_item3_box .pib_right i.icon {
+      display: inline-block;
+      vertical-align: middle;
+      width: 0.46933rem;
+      height: 0.256rem;
+      margin-left: 0.384rem; }
+      .pich_item3_box .pib_right i.icon img {
+        display: block;
+        width: 100%; }

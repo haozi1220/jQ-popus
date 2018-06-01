@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*单位*/
+.bottom_border {
+  border-bottom: 1px solid #e5e5e5; }
+
+.add_btn_wrapp {
+  padding: 0.64rem 0.85333rem;
+  background: #fff; }
+  .add_btn_wrapp .add_connect_btn {
+    display: block;
+    padding: 0.36267rem 0;
+    width: 14.25067rem;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 0.93867rem;
+            border-radius: 0.93867rem;
+    background: #3aa5ff;
+    text-align: center;
+    font-size: 0.55467rem;
+    color: #fff;
+    vertical-align: middle; }
+    .add_btn_wrapp .add_connect_btn:active {
+      background: #057dec; }
+    .add_btn_wrapp .add_connect_btn img {
+      width: 0.55467rem;
+      height: 0.55467rem;
+      vertical-align: middle; }
+    .add_btn_wrapp .add_connect_btn span {
+      vertical-align: middle;
+      margin-left: 0.21333rem; }
+
+.list_wrapp .title {
+  padding: 0.29867rem 0 0.29867rem 0.85333rem;
+  font-size: 0.512rem;
+  color: #808080; }
+
+.list_wrapp .list_ul {
+  padding-left: 0.85333rem;
+  background: #fff; }
+  .list_wrapp .list_ul .name_content {
+    position: relative;
+    padding: 0.50133rem 2.00533rem 0.50133rem 0;
+    font-size: 0.59733rem;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5; }
+    .list_wrapp .list_ul .name_content:last-child {
+      border-bottom: 0; }
+    .list_wrapp .list_ul .name_content .more_info {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 2.00533rem;
+      background: url("../images/indext_more_icon.png") no-repeat center center;
+      -webkit-background-size: 0.29867rem 0.46933rem;
+              background-size: 0.29867rem 0.46933rem; }
